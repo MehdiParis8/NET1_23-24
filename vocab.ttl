@@ -27,12 +27,6 @@ frac:Departement a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-frac:Departement a rdfs:Class ;
-    rdfs:label "Département" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-
 frac:code a rdf:Property ;
     rdfs:label "Code EC" ;
     rdfs:domain o:Resource ;
