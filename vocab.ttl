@@ -16,3 +16,8 @@ frac:Population a rdfs:Class ;
     rdfs:label "Population" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+frac:Infrastructure a rdfs:Class ;
+    rdfs:label "Infrastructure" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
