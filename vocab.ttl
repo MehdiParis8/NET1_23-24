@@ -26,3 +26,8 @@ frac:Connectivite a rdfs:Class ;
     rdfs:label "Connectivite" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+frac:Competences Numeriques a rdfs:Class ;
+    rdfs:label "Competences Numeriques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
