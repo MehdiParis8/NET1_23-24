@@ -17,13 +17,13 @@ frac:Population a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-frac:UX a rdfs:Class ;
-    rdfs:label "UX Design" ;
+frac:Infrastructure a rdfs:Class ;
+    rdfs:label "Infrastructure technologiques" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-frac:Interactif a rdfs:Class ;
-    rdfs:label "Design Interactif" ;
+frac:Competences Numeriques a rdfs:Class ;
+    rdfs:label "Niveau Competences Numeriques" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
