@@ -10,10 +10,20 @@
 @prefix schema: <http://schema.org/>.
 
 <https://jardindesconnaissances.univ-paris8.fr/onto/frac> a owl:Ontology ;
-    dcterms:title "Fracture Numerique" .
+    dcterms:title "Frac" .
 
 frac:Population a rdfs:Class ;
     rdfs:label "Population" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:UX a rdfs:Class ;
+    rdfs:label "UX Design" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:Interactif a rdfs:Class ;
+    rdfs:label "Design Interactif" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
