@@ -10,10 +10,9 @@
 @prefix schema: <http://schema.org/>.
 
 <https://jardindesconnaissances.univ-paris8.fr/onto/frac> a owl:Ontology ;
-    dcterms:title "Fracture Numerique" .
+    frac:title "Fracture Du Numerique" .
 
 frac:Population a rdfs:Class ;
     rdfs:label "Population" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-
