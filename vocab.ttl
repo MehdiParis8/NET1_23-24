@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix frac#: <https://jardindesconnaissances.univ-paris8.fr/onto/frac#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/frac a owl:Ontology ;
+    dcterms:title "Fracture Numérique" .
+
+frac:FractureNumérique a rdfs:Class ;
+    rdfs:label "Fracture Numérique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:disparitéTechnologique a rdf:Property ;
+    rdfs:label "Disparité Technologique" ;
+    rdfs:comment "Indique la disparité dans l'accès, l'utilisation et la maîtrise des technologies numériques entre différents groupes de population ou régions" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+frac:Departement a rdfs:Class ;
+    rdfs:label "Département" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:Departement a rdfs:Class ;
+    rdfs:label "Département" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+frac:code a rdf:Property ;
+    rdfs:label "Code EC" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+fup8:hasEcoleDoctorale a rdf:Property ;
+    rdfs:label "A comme Ecole Doctorale" ;
+    rdfs:comment "Relation avec une école doctorale" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
