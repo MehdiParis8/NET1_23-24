@@ -42,6 +42,32 @@ frac:Inegalite a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+frac:PolitiquesNumeriques a rdfs:Class ;
+    rdfs:label "PolitiquesNumeriques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:PlateformesNumeriques a rdfs:Class ;
+    rdfs:label "PlateformesNumeriques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:EquipementsNumeriques a rdfs:Class ;
+    rdfs:label "EquipementsNumeriques ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:AccesibiliteNumeriquee a rdfs:Class ;
+    rdfs:label "AccesibiliteNumerique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:EducationNumerique a rdfs:Class ;
+    rdfs:label "EducationNumerique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
 
 
 
