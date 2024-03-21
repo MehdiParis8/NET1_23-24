@@ -52,11 +52,6 @@ frac:PlateformesNumeriques a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-frac:EquipementsNumeriques a rdfs:Class ;
-    rdfs:label "EquipementsNumeriques" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
 frac:AccesibiliteNumeriquee a rdfs:Class ;
     rdfs:label "AccesibiliteNumerique" ;
     rdfs:domain o:Resource ;
