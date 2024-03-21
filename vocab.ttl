@@ -68,6 +68,12 @@ frac:hasInfrastructure a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+frac:hasCompetencesNumeriquesa rdf:Property ;
+    rdfs:label "Possède Compétences Numériques" ;
+    rdfs:comment "niveau de compétences numériques d'un individu" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 
 
 
