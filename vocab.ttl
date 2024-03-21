@@ -9,8 +9,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/frac a owl:Ontology ;
-    dcterms:title "Fracture Numérique" .
+https://jardindesconnaissances.univ-paris8.fr/onto/frac a owl:Ontology ; dcterms:title "Fracture Numérique"
 
 frac:FractureNumérique a rdfs:Class ;
     rdfs:label "Fracture Numérique" ;
@@ -22,9 +21,6 @@ frac:disparitéTechnologique a rdf:Property ;
     rdfs:comment "Indique la disparité dans l'accès, l'utilisation et la maîtrise des technologies numériques entre différents groupes de population ou régions" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-
-
-
 
 frac:Departement a rdfs:Class ;
     rdfs:label "Département" ;
