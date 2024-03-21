@@ -62,6 +62,12 @@ frac:EducationNumerique a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+frac:hasInfrastructure a rdf:Property ;
+    rdfs:label "Possède Infrastructure" ;
+    rdfs:comment "présence d'infrastructures technologiques et physiques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 
 
 
