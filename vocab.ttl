@@ -53,7 +53,7 @@ frac:PlateformesNumeriques a rdfs:Class ;
     vs:term_status "experimental" .
 
 frac:EquipementsNumeriques a rdfs:Class ;
-    rdfs:label "EquipementsNumeriques ;
+    rdfs:label "EquipementsNumeriques" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
