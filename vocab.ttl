@@ -31,3 +31,17 @@ frac:Competences Numeriques a rdfs:Class ;
     rdfs:label "Competences Numeriques" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+frac:Acces a rdfs:Class ;
+    rdfs:label "Acces" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:Inegalite a rdfs:Class ;
+    rdfs:label "Inegalite" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
