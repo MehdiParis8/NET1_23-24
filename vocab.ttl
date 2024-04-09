@@ -86,6 +86,13 @@ frac:hasAcces a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+frac:hasSubitInegalite a rdf:Property ;
+    rdfs:label "Subit des inégalités" ;
+    rdfs:comment "présence d'inégalités dans l'accès, l'utilisation et la maîtrise des technologies numériques pour un individu ou un groupe de personnes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
 
 
 
