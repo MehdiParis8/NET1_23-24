@@ -122,11 +122,7 @@ frac:hasparticipeFormationNumerique a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-frac:hasaccedeServiceEnLigne a rdf:Property ;
-    rdfs:label "Accède à des services en ligne" ;
-    rdfs:comment "accès à des services en ligne tels que les services gouvernementaux, bancaires, de santé, etc" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+
 
 
 
