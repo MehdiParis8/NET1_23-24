@@ -80,6 +80,12 @@ frac:hasConnectivite a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+frac:hasAcces a rdf:Property ;
+    rdfs:label "Possède Accès" ;
+    rdfs:comment "accès physique aux technologies numériques pour un individu ou un groupe de personnes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 
 
 
