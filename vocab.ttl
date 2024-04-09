@@ -92,6 +92,52 @@ frac:hasSubitInegalite a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+frac:hasPossedeInfrastructure a rdf:Property ;
+    rdfs:label "Possède Infrastructure" ;
+    rdfs:comment "présence d'infrastructures technologiques et physiques dans une région ou pour un groupe de personnes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:hasInegalite a rdf:Property ;
+    rdfs:label "Possède Inégalité" ;
+    rdfs:comment "présence d'inégalités dans l'accès, l'utilisation et la maîtrise des technologies numériques pour un individu ou un groupe de personnes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:hasPossedeDispositifAcces a rdf:Property ;
+    rdfs:label "Possède Dispositif Accès" ;
+    rdfs:comment "possession d'un dispositif tel qu'un ordinateur, un smartphone, une tablette, permettant l'accès aux technologies numériques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:hasUtilisePlateformeEnseignement a rdf:Property ;
+    rdfs:label "Utilise des Platesformes d'Enseignements" ;
+    rdfs:comment "participation à des programmes ou des initiatives visant à améliorer les compétences numériques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:hasparticipeFormationNumerique a rdf:Property ;
+    rdfs:label "Participation Formation Numérique" ;
+    rdfs:comment "participation à des programmes ou des initiatives visant à améliorer les compétences numériques" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+frac:hasAccesServiceEnLigne a rdf:Property ;
+    rdfs:label "Accède à Service en Ligne ;
+    rdfs:comment "accès à des services en ligne tels que les services gouvernementaux, bancaires, de santé, etc." ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+
+
+
+
+
+
 
 
 
